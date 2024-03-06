@@ -1,0 +1,52 @@
+﻿
+
+
+.sale_form_place {
+    margin-top: 160px;
+    color: black;
+}
+
+.tickets_header {
+    padding: 30px;
+    color: midnightblue;
+    font-family: Tahoma;
+    text-align: center;
+}
+.sale_form {
+    font-family: Tahoma;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    max-width: 700px;
+    color: midnightblue;
+}
+
+.flex-container {
+    color: midnightblue;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.flex_item_form {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.flex_item {
+    font-family: Tahoma;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    justify-content: space-between;
+    border: 2px solid navy;
+    border-radius: 5px;
+}
+
+.but{
+
+}

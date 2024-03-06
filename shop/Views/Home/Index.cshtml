@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Главная";
+    Layout = "/Views/Shared/_Layout.cshtml";
+    <link rel="stylesheet" type="text/css" href="~/css/home_index.css" />
+}
+
+
+<div class = "sale_form_place">
+    
+    <div class="flex-container">
+        <h1 class="tickets_header"> Билеты на автобус</h1>
+
+        <div class="flex-container">
+            <form class="flex_item_form" method="get" asp-area="" asp-controller="Sale" asp-action="GetTickets">
+
+                <input required class="flex_item" color="black" placeholder="Откуда" type="text" name="from_town" />
+                <input required class="flex_item" type="text" placeholder="Куда" name="to_town" />
+                <input required class="flex_item" type="date" placeholder="Дата" name="date" />
+                <!--<input class="flex_item" type="number" value="1" step="1" min="1" max="100" />-->
+                <input class="flex_item but" type="submit" value="Найти билеты" />
+            </form>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+    

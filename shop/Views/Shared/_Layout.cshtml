@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BusTickets</title>
+    <link rel="stylesheet" type="text/css" href="~/css/_Layout.css" />
+</head>
+<body>
+    <header>
+
+        <a class="logotip_site" asp-area="" asp-controller="Home" asp-action="Index">Busvoyage</a>
+         
+    </header>
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer >
+        <div >
+            2024 - BusTickets 
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

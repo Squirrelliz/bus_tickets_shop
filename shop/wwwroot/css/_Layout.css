@@ -1,0 +1,31 @@
+﻿
+@font-face {
+    font-family: 'autobus-bold';
+    src: url('../fonts/autobus-bold.ttf') ;
+}
+@font-face {
+    font-family: 'sanyo-cyr_0';
+    src: url('../fonts/sanyo-cyr_0.ttf') format('truetype');
+}
+.logotip_site {
+    font-family: sanyo-cyr_0;
+    color: navy;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+body {
+    background-image: url('../images/road_one_color.jpg');
+    background-repeat: no-repeat;
+}
+
+footer {
+    font-family: Tahoma;
+    text-align: center;
+    color: bisque;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
